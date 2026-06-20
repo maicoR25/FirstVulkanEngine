@@ -11,6 +11,26 @@ CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
 
+# IDE Project / workspace files (if generating IDE projects)
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.cbp
+.vs/
+.vscode/
+.idea/
+
+# Editor / OS backups
+*.pyc
+*.pyo
+*.DS_Store
+Thumbs.db
+
+vcpkg_installed/
+installed/
+build/
+
 # CLion
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
